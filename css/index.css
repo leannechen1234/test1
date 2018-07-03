@@ -111,7 +111,7 @@ body {
     position: fixed;
     width: 26px;
     height: 20px;
-    background: url("../image/image/home-arr-down.png") 50% no-repeat;
+    background: url("../image/home-arr-down.png") 50% no-repeat;
     background-size: 100%;
     z-index: 12;
     left: 50%;
@@ -169,7 +169,7 @@ body {
         margin: 7% 0 11%; }
 
 .video {
-  background: url("../image/image/index_bg.png") no-repeat;
+  background: url("../image/index_bg.png") no-repeat;
   background-size: 100% 100%; }
 
 .container-box:nth-child(odd) {
@@ -295,7 +295,7 @@ body {
   .page-three .bus-list li.active {
     color: #F79450; }
     .page-three .bus-list li.active .bus-icon {
-      background: url("../image/image/busIcon.png") no-repeat;
+      background: url("../image/busIcon.png") no-repeat;
       background-size: 100% 100%; }
   .page-three .bus-list .bus-icon {
     width: 26px;
