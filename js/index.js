@@ -169,15 +169,21 @@ function clickPage() {
         $(moveClass).addClass('move-active').siblings().removeClass('move-active');
     })
 }
-// 获得当前地址
-// function getCity() {
-//     var location=returnCitySN["cname"].split('省');
-//     var p=location[0];
-//     var c=location[1];
-//     c=c.substr(0,c.length-1);
-//     var h=p+'-'+c;
-//     $('.location h4').html(h)
-// }
+获得当前地址
+function getCity() {
+    var pro=location.protocol;
+    if(pro=='https:'){
+        $('#http').remove();
+    }else {
+        $('#https').remove();
+    }
+    var addr=returnCitySN["cname"].split('省');
+    var p=addr[0];
+    var c=addr[1];
+    c=c.substr(0,c.length-1);
+    var h=p+'-'+c;
+    $('.location h4').html(h)
+}
 // 改变页面大小时，调整
 function resizeTransY() {
     var transy=parseInt(getTransY());
@@ -193,7 +199,7 @@ function resizeTransY() {
 }
 
 $(function () {
-//     getCity();
+    getCity();
     changeHeight();
     changeWidth();
     changeBusiness();
