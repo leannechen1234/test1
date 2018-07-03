@@ -169,7 +169,7 @@ function clickPage() {
         $(moveClass).addClass('move-active').siblings().removeClass('move-active');
     })
 }
-获得当前地址
+//获得当前地址
 function getCity() {
     var pro=location.protocol;
     if(pro=='https:'){
