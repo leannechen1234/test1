@@ -29,12 +29,12 @@ function setHeadAndFoot() {
         $('.nextPage').show();
     }
     if(transY>height/2){
-        $('.logo').attr('src','logo_orange.png');
-        $('.menuOpen').attr('src','menuOpen_gray.png');
+        $('.logo').attr('src','image/logo_orange.png');
+        $('.menuOpen').attr('src','image/menuOpen_gray.png');
         $('.footer a').css('color','gray');
     }else {
-        $('.logo').attr('src','logo_white.png');
-        $('.menuOpen').attr('src','menuOpen.png');
+        $('.logo').attr('src','image/logo_white.png');
+        $('.menuOpen').attr('src','image/menuOpen.png');
         $('.footer a').css('color','#fff');
     }
 }
